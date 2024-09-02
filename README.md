@@ -20,8 +20,12 @@ To get this React Native project up and running on your local machine, follow th
     npm install
     npx install-expo-modules@latest   
     ```
+npm run android
 
 5. **Start the React Native server:**
+   ```bash
+    npm run android
+    ```
     ```bash
     npx react-native start
     ```
