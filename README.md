@@ -26,9 +26,6 @@ npm run android
    ```bash
     npm run android
     ```
-    ```bash
-    npx react-native start
-    ```
 
 ---
 ## Features
