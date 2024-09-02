@@ -13,7 +13,9 @@ To get this React Native project up and running on your local machine, follow th
     ```
 
 3. **Install the dependencies:**
+   
    Do not Install the Expo CLI integration!
+
     ```bash
     npm install
     npx install-expo-modules@latest   
