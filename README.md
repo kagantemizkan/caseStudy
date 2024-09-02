@@ -28,3 +28,12 @@ To get this React Native project up and running on your local machine, follow th
      npx react-native start
    ```
 
+   ## How to Run
+To access experimental features, navigate to the Plans tab and open the Experimental Features section.
+
+   ## Screenshots and Features
+
+    Smooth animations with reanimated
+    Ticket View with react-native-svg
+   
+
