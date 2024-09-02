@@ -24,8 +24,7 @@ To get this React Native project up and running on your local machine, follow th
     ```
 
 5. **Run the app on your emulator or physical device:**
-
-        ```bash
-        npx react-native start
-        ```
+   ```bash
+     npx react-native start
+   ```
 
