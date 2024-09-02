@@ -35,8 +35,10 @@ export default function FlightsScreen() {
 
   // functions
   const handleNewFlightAdd = () => {
+    console.log(flightData.length)
+    if (flightData.length > 7) return;
+
     if (mockData.length > 0) {
-      // Yeni uçuşu belirle
       let newFlight;
       let flightAdded = false;
 
@@ -52,10 +54,13 @@ export default function FlightsScreen() {
       }
 
       if (flightAdded) {
-        setFlightData([...flightData, newFlight]);
+        setFlightData(prevFlightData => {
+          return [...prevFlightData, newFlight];
+        });
       }
     }
   };
+
 
   const handleScrollViewLayout = (event) => {
     const { height } = event.nativeEvent.layout;

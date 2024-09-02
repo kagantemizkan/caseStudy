@@ -149,7 +149,7 @@ export const mockData = [
       landingDate: '05/12/2023',
       flightTime: '7h 55m',
       takeoffCity: 'Istanbul',
-      landingCity: 'Los Angeles',
+      landingCity: 'New York',
       takeoffTime: '06:00 PM',
       landingTime: '10:55 PM',
       flightNumber: 'TK 0432',

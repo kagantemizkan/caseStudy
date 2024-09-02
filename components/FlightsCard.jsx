@@ -29,7 +29,6 @@ export default function FlightsCard({ item, setFlightPressedId, flightPressedId,
   const [cardYPosition, setCardYPosition] = useState(0);
   const [zIndex, setZindex] = useState(1);
   const [shouldRenderAbove, setShouldRenderAbove] = useState(false);
-  const [scrollPosition, setScrollPositon] = useState(0)
   // -----------------
 
   // Context States
@@ -51,9 +50,7 @@ export default function FlightsCard({ item, setFlightPressedId, flightPressedId,
     }
   }, [flightPressedId]);
 
-  useEffect(() => {
-    findPosition();
-  }, [flightData]);
+
   // -----------------
 
   // Functions
@@ -70,18 +67,11 @@ export default function FlightsCard({ item, setFlightPressedId, flightPressedId,
     setIsBlurViewOn(true);
     setFlightPressedId(item.id);
     requestAnimationFrame(() => {
-      moveTo(scrollPosition - 100);
+      moveTo(cardYPosition - 100);
     });
   };
-  const findPosition = () => {
-    if (viewRef.current) {
-      requestAnimationFrame(() => {
-        viewRef.current.measure((x, y, width, height, pageX, pageY) => {
-          setScrollPositon(pageY)
-        });
-      });
-    }
-  };
+
+
   // -----------------
 
 
