@@ -1,0 +1,7 @@
+{
+  "name": "caseStudy",
+  "displayName": "caseStudy",
+  "plugins": [
+    "expo-font"
+  ]
+}
