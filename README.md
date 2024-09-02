@@ -13,20 +13,18 @@ To get this React Native project up and running on your local machine, follow th
     ```
 
 3. **Install the dependencies:**
+   
+   Do not Install the Expo CLI integration!
+
     ```bash
     npm install
-    npx install-expo-modules@latest
+    npx install-expo-modules@latest   
     ```
+npm run android
 
-4. **Start the React Native server:**
-    ```bash
-    npx react-native start
-    ```
-
-5. **Run the app on your emulator or physical device:**
-    ```bash
-    npx react-native run-android  # for Android
-    npx react-native run-ios      # for iOS
+5. **Start the React Native server:**
+   ```bash
+    npm run android
     ```
 
 ---
