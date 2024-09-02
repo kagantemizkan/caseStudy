@@ -36,7 +36,7 @@ export default function FlightsScreen() {
   // functions
   const handleNewFlightAdd = () => {
     console.log(flightData.length)
-    if (flightData.length > 7) return;
+    if (flightData.length > 9) return;
 
     if (mockData.length > 0) {
       let newFlight;
