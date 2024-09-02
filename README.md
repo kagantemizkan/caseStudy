@@ -26,6 +26,7 @@ To get this React Native project up and running on your local machine, follow th
     npx react-native start
     ```
 
+If build is not succesful try to reopen terminal!
 
 ---
 ## Features
