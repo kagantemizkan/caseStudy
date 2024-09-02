@@ -4,12 +4,12 @@ To get this React Native project up and running on your local machine, follow th
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-project-name.git
+    git clone https://github.com/kagantemizkan/caseStudy.git
     ```
 
 2. **Navigate to the project directory:**
     ```bash
-    cd your-project-name
+    cd caseStudy
     ```
 
 3. **Install the dependencies:**
